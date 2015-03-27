@@ -1,0 +1,85 @@
+body {
+  background: #2d344d;
+}
+#contactForm
+{
+  margin: 20px auto;
+  width: 300px;
+  padding: 30px 25px;
+  background: white;
+  border: 1px solid #c4c4c4;
+}
+
+label
+{
+display:block;
+margin-bottom:2px;
+font-size:14px;
+color:#666;
+}
+
+input[type="text"] {
+  width: 285px;
+  height: 40px;
+  margin-bottom: 25px;
+  padding-left:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="password"] {
+  width: 285px;
+  height: 40px;
+  margin-bottom: 25px;
+  padding-left:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea
+{
+  width: 275px;
+  height: 100px;
+  margin-bottom: 25px;
+  padding:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="text"]:focus, textarea:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+input[type="text"].error, textarea.error
+{
+  border:1px solid #c00;
+}
+input[type="submit"]
+{
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #fd935c;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer; 
+  outline:0;
+}
+input[type="text"], textarea
+{
+  display:block;
+  margin-bottom:10px;
+}
+p#error
+{
+  color:#c00;
+  display:none;
+}
+
